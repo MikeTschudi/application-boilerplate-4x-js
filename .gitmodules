@@ -1,0 +1,4 @@
+[submodule "ApplicationBase"]
+	path = ApplicationBase
+	url = git@github.com:ArcGIS/application-base-js.git
+	branch = master
