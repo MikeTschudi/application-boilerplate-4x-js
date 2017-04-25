@@ -20,7 +20,6 @@
   limitations under the License.​
 */
 
-
 /// <amd-dependency path="dojo/i18n!application/nls/resources.js" name="i18n" />
 declare const i18n: any;
 
