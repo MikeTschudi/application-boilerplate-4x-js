@@ -54,6 +54,8 @@ define(["require", "exports", "dojo/i18n!application/nls/resources.js"], functio
         //
         //--------------------------------------------------------------------------
         Application.prototype.init = function (base) {
+            var node = document.getElementById("viewContainer");
+            node.innerHTML = "see console";
             console.log(base);
             document.body.classList.remove(CSS.loading);
         };

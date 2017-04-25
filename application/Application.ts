@@ -55,6 +55,8 @@ class Application {
   //--------------------------------------------------------------------------
 
   public init(base: ApplicationBase): void {
+    var node = document.getElementById("viewContainer");
+    node.innerHTML = "see console";
     console.log(base);
 
     document.body.classList.remove(CSS.loading);
