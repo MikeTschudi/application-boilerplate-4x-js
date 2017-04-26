@@ -27,7 +27,7 @@ import ApplicationBase from "../ApplicationBase/ApplicationBase";
 
 const CSS = {
   loading: "configurable-application--loading"
-}
+};
 
 class Application {
 
@@ -55,7 +55,7 @@ class Application {
   //--------------------------------------------------------------------------
 
   public init(base: ApplicationBase): void {
-    var node = document.getElementById("viewContainer");
+    const node = document.getElementById("viewContainer");
     node.innerHTML = "see console";
     console.log(base);
 
